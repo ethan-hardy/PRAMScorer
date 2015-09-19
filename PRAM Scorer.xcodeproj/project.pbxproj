@@ -7,20 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C166347194133A90023E80A /* reload-md.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C166346194133A90023E80A /* reload-md.png */; };
+		2C3028561A06AC98009E00BB /* Top.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C3028551A06AC98009E00BB /* Top.png */; };
+		2C45DB1C196E007A00AFB402 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C45DB1B196E007A00AFB402 /* Background.png */; };
 		2C4E276D1920F0E6007ACE19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4E276C1920F0E6007ACE19 /* Foundation.framework */; };
 		2C4E276F1920F0E6007ACE19 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4E276E1920F0E6007ACE19 /* CoreGraphics.framework */; };
 		2C4E27711920F0E6007ACE19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4E27701920F0E6007ACE19 /* UIKit.framework */; };
 		2C4E27771920F0E6007ACE19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C4E27751920F0E6007ACE19 /* InfoPlist.strings */; };
 		2C4E27791920F0E6007ACE19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E27781920F0E6007ACE19 /* main.m */; };
 		2C4E277D1920F0E6007ACE19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E277C1920F0E6007ACE19 /* AppDelegate.m */; };
-		2C4E27801920F0E6007ACE19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4E277E1920F0E6007ACE19 /* Main.storyboard */; };
-		2C4E27831920F0E6007ACE19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E27821920F0E6007ACE19 /* ViewController.m */; };
 		2C4E27851920F0E6007ACE19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4E27841920F0E6007ACE19 /* Images.xcassets */; };
 		2C4E278C1920F0E6007ACE19 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4E278B1920F0E6007ACE19 /* XCTest.framework */; };
 		2C4E278D1920F0E6007ACE19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4E276C1920F0E6007ACE19 /* Foundation.framework */; };
 		2C4E278E1920F0E6007ACE19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4E27701920F0E6007ACE19 /* UIKit.framework */; };
 		2C4E27961920F0E6007ACE19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C4E27941920F0E6007ACE19 /* InfoPlist.strings */; };
 		2C4E27981920F0E6007ACE19 /* PRAM_ScorerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E27971920F0E6007ACE19 /* PRAM_ScorerTests.m */; };
+		2C4E27A91920F1C4007ACE19 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E27A71920F1C4007ACE19 /* MainController.m */; };
+		2C4E27AA1920F1C4007ACE19 /* MainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C4E27A81920F1C4007ACE19 /* MainController.xib */; };
+		2C4E27B019217147007ACE19 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E27AE19217147007ACE19 /* DetailViewController.m */; };
+		2C4E27B119217147007ACE19 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C4E27AF19217147007ACE19 /* DetailViewController.xib */; };
+		2C4E27B3192173A0007ACE19 /* LevelDetails.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C4E27B2192173A0007ACE19 /* LevelDetails.plist */; };
+		2CCAB9A31959AE9A000FFBDF /* Dosages.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CCAB9A21959AE9A000FFBDF /* Dosages.png */; };
+		2CCC8A36195CE1C8005A6F61 /* Bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CCC8A34195CE1C8005A6F61 /* Bottom.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C166346194133A90023E80A /* reload-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reload-md.png"; sourceTree = "<group>"; };
+		2C3028551A06AC98009E00BB /* Top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Top.png; sourceTree = "<group>"; };
+		2C45DB1B196E007A00AFB402 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
 		2C4E27691920F0E6007ACE19 /* PRAM Scorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PRAM Scorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4E276C1920F0E6007ACE19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2C4E276E1920F0E6007ACE19 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,15 +55,21 @@
 		2C4E277A1920F0E6007ACE19 /* PRAM Scorer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PRAM Scorer-Prefix.pch"; sourceTree = "<group>"; };
 		2C4E277B1920F0E6007ACE19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C4E277C1920F0E6007ACE19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2C4E277F1920F0E6007ACE19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2C4E27811920F0E6007ACE19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2C4E27821920F0E6007ACE19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2C4E27841920F0E6007ACE19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2C4E278A1920F0E6007ACE19 /* PRAM ScorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PRAM ScorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4E278B1920F0E6007ACE19 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2C4E27931920F0E6007ACE19 /* PRAM ScorerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PRAM ScorerTests-Info.plist"; sourceTree = "<group>"; };
 		2C4E27951920F0E6007ACE19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2C4E27971920F0E6007ACE19 /* PRAM_ScorerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRAM_ScorerTests.m; sourceTree = "<group>"; };
+		2C4E27A61920F1C4007ACE19 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		2C4E27A71920F1C4007ACE19 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		2C4E27A81920F1C4007ACE19 /* MainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainController.xib; sourceTree = "<group>"; };
+		2C4E27AD19217147007ACE19 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2C4E27AE19217147007ACE19 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2C4E27AF19217147007ACE19 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		2C4E27B2192173A0007ACE19 /* LevelDetails.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LevelDetails.plist; sourceTree = "<group>"; };
+		2CCAB9A21959AE9A000FFBDF /* Dosages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dosages.png; sourceTree = "<group>"; };
+		2CCC8A34195CE1C8005A6F61 /* Bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bottom.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +129,14 @@
 		2C4E27721920F0E6007ACE19 /* PRAM Scorer */ = {
 			isa = PBXGroup;
 			children = (
+				2C4E27A61920F1C4007ACE19 /* MainController.h */,
+				2C4E27A71920F1C4007ACE19 /* MainController.m */,
+				2C4E27A81920F1C4007ACE19 /* MainController.xib */,
+				2C4E27AD19217147007ACE19 /* DetailViewController.h */,
+				2C4E27AE19217147007ACE19 /* DetailViewController.m */,
+				2C4E27AF19217147007ACE19 /* DetailViewController.xib */,
 				2C4E277B1920F0E6007ACE19 /* AppDelegate.h */,
 				2C4E277C1920F0E6007ACE19 /* AppDelegate.m */,
-				2C4E277E1920F0E6007ACE19 /* Main.storyboard */,
-				2C4E27811920F0E6007ACE19 /* ViewController.h */,
-				2C4E27821920F0E6007ACE19 /* ViewController.m */,
 				2C4E27841920F0E6007ACE19 /* Images.xcassets */,
 				2C4E27731920F0E6007ACE19 /* Supporting Files */,
 			);
@@ -126,10 +146,16 @@
 		2C4E27731920F0E6007ACE19 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2CCAB9A21959AE9A000FFBDF /* Dosages.png */,
 				2C4E27741920F0E6007ACE19 /* PRAM Scorer-Info.plist */,
+				2C3028551A06AC98009E00BB /* Top.png */,
+				2CCC8A34195CE1C8005A6F61 /* Bottom.png */,
+				2C45DB1B196E007A00AFB402 /* Background.png */,
+				2C166346194133A90023E80A /* reload-md.png */,
 				2C4E27751920F0E6007ACE19 /* InfoPlist.strings */,
 				2C4E27781920F0E6007ACE19 /* main.m */,
 				2C4E277A1920F0E6007ACE19 /* PRAM Scorer-Prefix.pch */,
+				2C4E27B2192173A0007ACE19 /* LevelDetails.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -228,9 +254,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C4E27B3192173A0007ACE19 /* LevelDetails.plist in Resources */,
+				2C45DB1C196E007A00AFB402 /* Background.png in Resources */,
 				2C4E27851920F0E6007ACE19 /* Images.xcassets in Resources */,
 				2C4E27771920F0E6007ACE19 /* InfoPlist.strings in Resources */,
-				2C4E27801920F0E6007ACE19 /* Main.storyboard in Resources */,
+				2C4E27AA1920F1C4007ACE19 /* MainController.xib in Resources */,
+				2C4E27B119217147007ACE19 /* DetailViewController.xib in Resources */,
+				2CCAB9A31959AE9A000FFBDF /* Dosages.png in Resources */,
+				2C166347194133A90023E80A /* reload-md.png in Resources */,
+				2CCC8A36195CE1C8005A6F61 /* Bottom.png in Resources */,
+				2C3028561A06AC98009E00BB /* Top.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C4E27831920F0E6007ACE19 /* ViewController.m in Sources */,
 				2C4E277D1920F0E6007ACE19 /* AppDelegate.m in Sources */,
+				2C4E27A91920F1C4007ACE19 /* MainController.m in Sources */,
 				2C4E27791920F0E6007ACE19 /* main.m in Sources */,
+				2C4E27B019217147007ACE19 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,14 +314,6 @@
 				2C4E27761920F0E6007ACE19 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2C4E277E1920F0E6007ACE19 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C4E277F1920F0E6007ACE19 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		2C4E27941920F0E6007ACE19 /* InfoPlist.strings */ = {
@@ -379,7 +405,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PRAM Scorer/PRAM Scorer-Prefix.pch";
 				INFOPLIST_FILE = "PRAM Scorer/PRAM Scorer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bdbbc9fe-dc5e-4f90-9c26-e8f2dd5909ad";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,7 +420,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PRAM Scorer/PRAM Scorer-Prefix.pch";
 				INFOPLIST_FILE = "PRAM Scorer/PRAM Scorer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "bdbbc9fe-dc5e-4f90-9c26-e8f2dd5909ad";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +486,7 @@
 				2C4E279D1920F0E6007ACE19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C4E279E1920F0E6007ACE19 /* Build configuration list for PBXNativeTarget "PRAM ScorerTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +495,7 @@
 				2C4E27A01920F0E6007ACE19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

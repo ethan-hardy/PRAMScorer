@@ -1,8 +1,8 @@
 //
 //  main.m
-//  PRAM Scorer
+//  Magic Life Counter
 //
-//  Created by Ethan Hardy on 2014-05-12.
+//  Created by Ethan Hardy on 2/8/2014.
 //  Copyright (c) 2014 Ethan Hardy. All rights reserved.
 //
 

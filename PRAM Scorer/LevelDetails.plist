@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Mild</key>
+	<array>
+		<string>MD to assess within 60 min</string>
+		<string>•Salbutamol now and q 60 min prn (via MDI* + spacer)</string>
+		<string>•Vital Signs &amp; PRAM q 60 min</string>
+		<string>Reassess Vital Signs &amp; PRAM q 60 min</string>
+		<string>•If PRAM ≥ to 4 or FEV1 is &lt; 70% predicted:</string>
+		<string>•MD to reassess and move to top of ‘Moderate’ pathway</string>
+		<string>•If PRAM remains ≤ 3 or FEV1 ≥ to 70% predicted:</string>
+		<string>•MD to consider discharge</string>
+		<string>•Provide asthma teaching</string>
+		<string>•Provide discharge instructions</string>
+	</array>
+	<key>Moderate</key>
+	<array>
+		<string>MD to assess within 30 min</string>
+		<string>•Administer oxygen to keep Sp02 greater than or equal to 92%</string>
+		<string>•Salbutamol now and q 30 - 60 min prn (via MDI* and spacer)</string>
+		<string>•Give oral corticosteroid as soon as possible after 1st salbutamol dose (within 60 min of triage)</string>
+		<string>•Vital Signs &amp; PRAM q 30 - 60 min</string>
+		<string>•If not improving (PRAM unchanged or less than 3 point improvement), consider ipratropium bromide</string>
+		<string>Reassess Vital Signs &amp; PRAM q 30 - 60 min</string>
+		<string>•If at any time PRAM is ≥ 8 or if PRAM is unchanged or has improved less than 3 points:</string>
+		<string>•MD to reassess and move to top of ‘Severe’ pathway</string>
+		<string>•If PRAM is ≥ 6-8 hrs post corticosteroid, PRAM is ≥4 or FEV1 is less than 70% predicted:</string>
+		<string>•MD to reassess and consider admission</string>
+		<string>•If PRAM is ≤ 3 or FEV1 greater than or equal to 70% predicted:</string>
+		<string>•MD to consider discharge; provide asthma teaching and discharge instructions</string>
+	</array>
+	<key>Severe</key>
+	<array>
+		<string>MD to assess within 15 min</string>
+		<string>•Administer oxygen to keep Sp02 greater than or equal to 92%</string>
+		<string>•Salbutamol + ipratropium NOW, + q 20 min x 3 doses (via MDI* + spacer or nebulizer), then q 20-60 min prn</string>
+		<string>•Give systemic corticosteroid as soon as possible after 1st salbutamol/ ipratropium dose (within 20 min of triage)</string>
+		<string>•Vital Signs + PRAM q 20 - 60 min</string>
+		<string>•Consider IV access and blood gases</string>
+		<string>Reassess Vital Signs &amp; PRAM q 20-60 min</string>
+		<string>•If poor response (PRAM unchanged or &lt; 3 point improvement) or signs of impending respiratory failure at any time:</string>
+		<string>•MD to reassess STAT and move to top of ‘Impending Respiratory Failure’ pathway</string>
+		<string>•If 4 hrs post corticosteroid, PRAM is ≥4 or FEV1 is &lt; 70% predicted:</string>
+		<string>•MD to reassess and consider admission</string>
+		<string>•If PRAM improving, move to ‘Moderate’ pathway</string>
+	</array>
+</dict>
+</plist>
